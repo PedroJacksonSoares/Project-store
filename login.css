@@ -1,187 +1,111 @@
 body{
     background-color: #272729;
 }
-.logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
-    position: absolute;
+form{
+    margin: 0.5em;
+    margin-left: 0.5em;
 }
-
-.title{
+.background-container{
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
-    position: absolute;
-    width: 314px;
-    height: 101px;
-    left: 33rem;
-    top: 120px;
 }
+.Brand{
+    position: fixed;
+}
+/*  height: 100vh;
+    width: 50vw; */
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 38em;
+    width: 32em;
+    border:solid;
+    border-radius: 10px;
+    margin-top: 1em;
+    border: none;
+    background-color: #434344;
+}
 .onboarding{
     font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 0px;
-
+    font-size: 2.442rem;
+    font-weight: 500;
     color: #FFFFFF;
 }
-
-.onboarding2{
+label{
     font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 20px;
-
-    color: #FFFFFF
+    font-size: 1.15rem;
+    color: #FFFFFF;
+    font-weight: 400;
 }
-.input1{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 1px;
-    
-    position: absolute;
-    left: 30rem;
-    top: 15rem;
-}
-.label-email{
-    
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 4 rem;
-    line-height: 25px;
-
-    color: #FFFFFF
-}
-
-#emailBox{
+input{
+    display: block;
     box-sizing: border-box;
-
-    width: 30em;
-    height: 4em;
-
-    border: 2px solid #FFFFFF;
     border-radius: 10px;
-    background-color: #272729;
-    color: #FFFFFF;
-}
-.input2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 5px;
-
-    position: absolute;
-    left: 30rem;
-    top: 22rem;
-}
-
-.label-senha{
-    width: 86.02px;
-    height: 24px;
-
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 4 rem;
-    line-height: 25px;
-
-    color: #FFFFFF;
-}
-
-#passwordBox{
-    box-sizing: border-box;
-
-    width: 30em;
+    border: none;
+    width: 26em;
     height: 4em;
-
-    border: 2px solid #FFFFFF;
-    border-radius: 10px;
-    background-color: #272729;
-    color: #FFFFFF
 }
-
-.forgot-password{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    position: absolute;
-    left: 46rem;
-    top: 28rem;
-}
-.forgot{
-    color: #8B8DCF;
-}
-.loginButton{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 180px;
-    gap: 10px;
-
-    position: absolute;
-    left: 30rem;
-    top: 32rem;
-
+button{
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: block;
+    color: #FFFFFF;
     background: #8B8DCF;
     border-radius: 10px;
+    border: none;
+    width: 26em;
+    height: 4em;
 }
-.googleButton{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding:  10px 105px;
-    gap: 10px;
-
-    position: absolute;
-    left: 30rem;
-    top: 36rem;
-
+.googlebutton{
+    text-align: center;
     background: #FFFFFF;
-    border-radius: 10px;
+    color: #8B8DCF;
 }
-.entrar-google{
-
+.googleico{
+    float: left;
+    margin-left: 0.5em;
+}
+a{
+    text-decoration: none;
+    color: #C2A8FD;
+}
+.text{
+    color: #FFFFFF;
+}
+.entrar{
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-left: 5.02em;
+}
+p{
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 600;
-    font-size: 1em;
-    /* identical to box height */
-
-
-    color: #8B8DCF;
+    color: #FFFFFF;
+    font-size: 1.563rem;
+    font-weight: 500;
 }
-
-.criar-conta{
+.text{
+    font-family: 'Nunito';
+    font-size: 1rem;
+    font-weight: 400;
+}
+.pattern{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 5px;
-    line-height: 45px;
-
-    position: absolute;
-    left: 36rem;
-    top: 38rem;
-    color:#FFFFFF;
+    justify-content: flex-end;
+    align-self: flex-end;
 }
-.signup{
-    color: #8B8DCF;
+.text2{
+    font-family: 'Nunito';
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+::placeholder{
+    padding: 10px;
 }
